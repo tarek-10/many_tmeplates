@@ -1,0 +1,460 @@
+/* Common && Generals*/
+body {
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+}
+button {
+  font-family: "montserrat", sans-serif;
+}
+.pd-y {
+  padding: 100px 0;
+}
+
+/*End Common && Generals*/
+
+/*Section Header*/
+section.header {
+  height: 100vh;
+  background-image: url(../media/images2/header-bg.jpg);
+  background-size: cover;
+}
+.header-head {
+  padding: 15px 0;
+  overflow: hidden;
+}
+.header-head img {
+  float: left;
+  padding: 10px 0;
+}
+.header-head nav {
+  float: right;
+}
+.header-head nav ul li {
+  display: inline-block;
+}
+.header-head nav ul li a {
+  padding: 10px 5px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.content {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-content {
+  width: 55%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-content .title {
+  font-size: 2.5rem;
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: bold;
+}
+.header-content .desc {
+  text-transform: capitalize;
+  line-height: 1.3;
+  letter-spacing: 2px;
+  color: #fff;
+  margin: 30px 0;
+}
+.btn {
+  width: 150px;
+  padding: 20px 15px;
+  border: 0;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: opacity 500ms ease-in-out;
+  cursor: pointer;
+}
+.btn-learn {
+  background-color: #fff;
+  margin-right: 15px;
+}
+
+.btn-request {
+  background-color: #8be2e5;
+  color: #fff;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.header .header-footer {
+  width: 25px;
+  height: 45px;
+  margin-top: 10%;
+  border: 2px solid #fff;
+  border-radius: 30%;
+}
+
+.header .header-footer .scroll {
+  width: 5px;
+  height: 7px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  animation: scrolling 1s ease-in-out infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    top: 5px;
+    opacity: 1;
+  }
+
+  25% {
+    top: 10px;
+    opacity: 0;
+  }
+  50% {
+    top: 15px;
+    opacity: 1;
+  }
+  100% {
+    top: 20px;
+    opacity: 0;
+  }
+}
+/*End Section Header*/
+
+/*Section BeFirst*/
+.BeFirst {
+  width: 100%;
+  height: 90vh;
+  background-image: url(../media/images2/be-the-first-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.BeFirst .befirst-content {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: column;
+  justify-content: baseline;
+  align-items: center;
+}
+.befirst-content .befirst-item {
+  text-align: center;
+  text-transform: capitalize;
+}
+.befirst-item .befirst-title {
+  color: #fff;
+  font-size: 40px;
+}
+.befirst-item .befirst-desc {
+  width: 450px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.befirst-content .befirst-img {
+  width: 400px;
+  height: 400px;
+}
+.befirst-content .befirst-img img {
+  width: 100%;
+  background-size: cover;
+}
+
+/*End Section BeFirst*/
+
+/*feature section*/
+.feature {
+  width: 100%;
+  padding-bottom: 20%;
+}
+.feature-content {
+  overflow: hidden;
+}
+.feature .feature-items {
+  width: 30%;
+  float: left;
+}
+.feature-items .hor-line {
+  height: 5px;
+  border: 0;
+  background-color: #6d3f96;
+}
+.feature-items .hor-line.two {
+  background-color: #70cbce;
+}
+.feature-items .hor-line.three {
+  background-color: #fdc05d;
+}
+
+.feature-items .feature-title {
+  text-transform: capitalize;
+  font-size: 25px;
+}
+.feature-items .feature-desc {
+  color: #929496;
+  text-transform: capitalize;
+  word-spacing: 2px;
+  line-height: 1.4;
+}
+
+.feature-items.mg {
+  margin: 0 5%;
+}
+
+/*end feature secction*/
+
+/*********** Pricing Section ******/
+.pricing {
+  width: 100%;
+  height: auto;
+  background-color: #70cbce;
+  text-align: center;
+  padding: 10% 0;
+}
+.pricing .pricing-title {
+  text-transform: capitalize;
+  font-size: 45px;
+  color: #fff;
+  font-weight: bold;
+}
+.pricing .pricing-desc {
+  text-transform: capitalize;
+  font-size: 18px;
+  word-spacing: 2px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.pricing-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pricing-content .pricing-item {
+  width: 31%;
+}
+.pricing-content .pricing-item:nth-child(1),
+.pricing-content .pricing-item:nth-child(3) {
+  margin-top: 3%;
+}
+.pricing-item .pricing-personal {
+  list-style: none;
+  background-color: #fff;
+  padding: 0;
+  border-radius: 15px;
+  transition: all 700ms ease-in-out;
+}
+.pricing-item .pricing-personal:hover {
+  margin-top: -7%;
+}
+.pricing-personal .personal-title {
+  padding: 20px;
+  background-color: #231f20;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.pricing-personal .personal-title .title {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 20px;
+}
+
+.pricing-personal .dollar {
+  background-color: #231f20;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 30px;
+  opacity: 0.99;
+  transition: all 500ms ease-in-out;
+}
+.pricing-personal .dollar span {
+  font-weight: normal;
+  color: #929496;
+}
+.pricing-personal .dollar:hover {
+  opacity: 0.96;
+}
+.pricing-personal .list {
+  padding: 10px;
+  border-bottom: 1px solid #e8eaea;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.pricing-personal .personal-desc {
+  color: #929496;
+  word-spacing: 2px;
+  line-height: 1.4;
+  padding: 10px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.pricing-personal .mybtn {
+  padding: 15px;
+  text-transform: uppercase;
+  color: #70cbce;
+}
+.pricing-personal .mybtn:hover {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+/******* End Pricing Section ******/
+
+/* Invite Section*/
+.invite {
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.invite .icon {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #70cbce;
+  border-radius: 50%;
+  line-height: 60px;
+  color: #70cbce;
+  margin: 10px 0;
+}
+
+.invite .invite-title{
+  text-transform: capitalize;
+  font-size: 35px;
+  margin: 30px 0;
+  padding: 10px 0;
+}
+.invite .invite-desc{
+  text-transform: capitalize;
+  margin-bottom: 4%;
+}
+.invite .myinput{
+  display: block;
+  width: 300px;
+  margin: auto;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 3%;
+}
+.invite .invite-btn{
+  width: 200px;
+  height: 50px;
+  outline: none;
+   border: 0;
+  padding:10px;
+  background-color:#70cbce;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #fff;
+}
+/*End Invite Section*/
+
+/*Info Section*/
+.info{
+  width:100%;
+  height:auto;
+}
+.info-content{
+  display: flex;
+  width: 100%;
+  height: 700px;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+
+}
+.info-content .info-items{
+  margin-top: 30px;
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+ border-bottom: 1px solid #e8eaea;
+ border-radius: 10px;
+}
+.info-content .info-items.mg{
+  margin: 0;
+  padding: 0;
+}
+.info-items .info-title{
+  text-transform: capitalize;
+  word-spacing: 2px;
+  line-height: 1.2;
+}
+.info-title .info-span{
+  font-size: 17px;
+  font-style: italic;
+}
+/*End Info Section*/
+
+/*Footer Section*/
+.footer{
+  width: 100%;
+  padding-bottom: 5%;
+}
+.footer-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .social .social-title{
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 0 10px;
+  color:#929496;
+}
+.social i{
+  margin: 0 3px;
+}
+.footer .copyright{
+  color: #ccc;
+  text-transform: capitalize;
+}
+/*End Footer Section*/
